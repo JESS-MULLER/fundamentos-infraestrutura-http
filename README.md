@@ -33,7 +33,7 @@ Foi realizada uma requisição detalhada utilizando a ferramenta de linha de com
     * `Content-Type`: `text/html; charset=UTF-8`
     * `Content-Length`: `347`
 
-![Evidência do comando cURL no terminal do VS Code](print-terminal.png)
+![Evidência do comando cURL no terminal do VS Code](01-fundamentos-http/print-terminal.png)
 
 ---
 
@@ -41,7 +41,7 @@ Foi realizada uma requisição detalhada utilizando a ferramenta de linha de com
 * **Ação:** Utilização da aba **Network (Rede)** do DevTools para monitorar o carregamento da página localmente e analisar os cabeçalhos de requisição e resposta.
 * **Observações:** Foi validado o recebimento do Status Code `200 OK`, o tempo de resposta e os cabeçalhos como o `Content-Type` e `Content-Length: 586` injetados dinamicamente pelo ecossistema do Live Preview.
 
-![Evidência de inspeção de rede com o Chrome DevTools](print-devtools.png)
+![Evidência de inspeção de rede com o Chrome DevTools](01-fundamentos-http/print-devtools.png)
 
 ---
 
@@ -50,7 +50,7 @@ Foram estruturadas requisições dentro do Postman para analisar o comportamento
 
 * **Requisição GET (`https://alura.com.br`):** Enviada uma requisição GET para capturar a estrutura base da plataforma, retornando o código fonte HTML completo da Alura com o Status `200 OK`.
 
-![Evidência de requisição HTTP GET realizada através do Postman](print-postman.png)
+![Evidência de requisição HTTP GET realizada através do Postman](01-fundamentos-http/print-postman.png)
 
 ---
 
