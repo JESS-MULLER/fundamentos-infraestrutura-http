@@ -1,39 +1,13 @@
-# 🐍 Exercício Prático: Estruturas de Dados e Laços em Python
+# 🐍 Trilha de Aprendizado: Desenvolvimento com Python
 
-Este laboratório documenta a resolução de uma atividade prática focada no gerenciamento, associação e iteração de estruturas de dados básicas em Python (Listas, Tuplas e Dicionários).
-
-## 🚀 O que foi realizado
-
-1. **Criação de Estruturas Base:**
-   * **Lista (`[]`):** Armazenamento ordenado e mutável dos nomes dos filmes favoritos.
-   * **Tupla (`()`):** Armazenamento imutável das datas de visualização para preservar a integridade histórica do registro.
-
-2. **Construção do Dicionário (`{}`):**
-   * Implementação de um laço `for` estruturado para associar cada filme (Chave) à sua respectiva data (Valor).
-
-3. **Iteração e Leitura de Dados (`.items()`):**
-   * Criação de um segundo laço utilizando o método `.items()` para percorrer o dicionário e imprimir de forma amigável as chaves e valores combinados na tela.
+Repositório dedicado ao armazenamento de laboratórios práticos, exercícios de lógica e projetos construídos durante as aulas de Python.
 
 ---
 
-## 🔍 Erros Identificados e Corrigidos (Aprendizado Prático)
+## 🗂️ Aulas e Exercícios
 
-* **NameError (Variáveis Inexistentes):** Ajuste de erros de digitação comuns no terminal interativo, como a confusão entre o plural `nome_filmes` e o singular `nome_filme`, e a palavra `fime` sem a letra "l".
-* **AttributeError (`.item` vs `.items()`):** Correção do método de leitura do dicionário. O Python exige o uso do termo no plural (`.items()`) para desempacotar chaves e valores simultaneamente.
+* 📂 **[Aula 01: Fundamentos e Estruturas de Dados](./aula-01)**
+  * Manipulação prática de listas, tuplas imutáveis e dicionários. Uso do método `.items()` para loops e correções de erros de sintaxe.
 
----
-
-## 📸 Evidências Visuais de Execução
-
-### Etapa 1: Criação e Geração do Dicionário
-![Geração do dicionário de filmes no terminal](print-python.png)
-
-### Etapa 2: Execução do Loop com .items()
-![Execução do loop imprimindo chaves e valores](print-python-loop.png)
-
----
-
-## 🛠️ Tecnologias
-* Python 3 (Terminal Interativo CLI)
-* VS Code & Extensão Markdown
-* Git & GitHub
+* 📂 **[Aula 02: Novo Tema de Estudos](./aula-02)** *(Em breve)*
+  * Espaço reservado para as próximas atividades e códigos da aula 2.
