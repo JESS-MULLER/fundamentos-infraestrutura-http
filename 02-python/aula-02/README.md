@@ -37,4 +37,4 @@ Este laboratório foi dedicado à prática de persistência, estruturação e ma
 ![Estrutura do arquivo de texto populado via inputs](print-input_data_txt.png)
 
 ### 6. Leitura Automatizada com Laço de Repetição (read_data.py)
-![Leitura com laço for no arquivo](![Texto Alternativo](print-read_data.png))
+![Texto Alternativo](print-read_data.png)
