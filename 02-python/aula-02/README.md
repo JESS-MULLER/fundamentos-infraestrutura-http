@@ -31,10 +31,10 @@ Este laboratório foi dedicado à prática de persistência, estruturação e ma
 ![Escrita e leitura de arquivo JSON com sucesso](print-json.png)
 
 ### 4. Código do Script de Captura (input_data.py)
-![Código de captura com inputs](![alt text](image.png))
+![Texto Alternativo](print-input_data.png)
 
 ### 5. Arquivo Gerado via Interação com Usuário (input_data.txt)
 ![Estrutura do arquivo de texto populado via inputs](print-input_data_txt.png)
 
 ### 6. Leitura Automatizada com Laço de Repetição (read_data.py)
-![Leitura com laço for no arquivo](![alt text](image-1.png))
+![Leitura com laço for no arquivo](![Texto Alternativo](print_data_data.png))
