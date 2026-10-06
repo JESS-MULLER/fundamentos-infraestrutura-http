@@ -30,11 +30,11 @@ Este laboratório foi dedicado à prática de persistência, estruturação e ma
 ### 3. Estruturas de Dados (.json)
 ![Escrita e leitura de arquivo JSON com sucesso](print-json.png)
 
-### 4. Captura Interativa com Inputs via Terminal
-![Terminal capturando dados dinâmicos](print-input-data .png)
+### 4. Código do Script de Captura (input_data.py)
+![Código de captura com inputs](print-input_data.png)
 
-### 5. Arquivo Gerado em Modo Append
-![Estrutura do arquivo populado via inputs](print-input-data_txt.png)
+### 5. Arquivo Gerado via Interação com Usuário (input_data.txt)
+![Estrutura do arquivo de texto populado via inputs](print-input_data_txt.png)
 
-### 6. Leitura Automatizada Linha por Linha
+### 6. Leitura Automatizada com Laço de Repetição (read_data.py)
 ![Leitura com laço for no arquivo](print-read-data.png)
