@@ -1,19 +1,20 @@
-# 📁 Aula 02: Manipulação de Arquivos (TXT, CSV e JSON)
+# 📁 Aula 02: Manipulação e Persistência de Arquivos (TXT, CSV, JSON e Inputs)
 
-Este laboratório foi dedicado à prática de persistência e estruturação de dados em arquivos locais utilizando as funções nativas e as bibliotecas integradas do Python.
+Este laboratório foi dedicado à prática de persistência, estruturação e manipulação de dados em arquivos locais utilizando funções nativas, capturas dinâmicas do usuário e bibliotecas integradas do Python.
 
 ## 🚀 O que foi explorado:
-* **Arquivos TXT:** Leitura e escrita de strings em blocos utilizando o gerenciador de contexto `with open()`.
-* **Arquivos CSV:** Uso da biblioteca integrada `import csv` para ler e desempacotar dados estruturados no formato tabular (linhas e colunas).
-* **Arquivos JSON:** Uso da biblioteca integrada `import json` para praticar a serialização (`json.dump()`) e deserialização (`json.load()`) de dicionários complexos, simulando o tráfego de dados estruturados.
+* **Entrada e Saída de Dados:** Manipulação segura de arquivos utilizando o gerenciador de contexto `with open()`.
+* **Arquivos TXT Básicos:** Escrita e leitura estruturada de strings em blocos de texto puro com tratamento de codificação (`utf-8`).
+* **Arquivos CSV:** Uso da biblioteca integrada `import csv` para ler e processar dados estruturados no formato tabular (linhas e colunas).
+* **Arquivos JSON:** Uso da biblioteca integrada `import json` para realizar a serialização e deserialização de dicionários usando `json.dump()` e `json.load()`.
+* **Captura Dinâmica (`input()`) & Modo Append (`'a'`):** Criação de scripts interativos para receber dados do usuário via terminal e salvá-los de forma incremental no arquivo, adicionando novas linhas ao final do documento sem sobrescrever os registros anteriores.
 
 ---
 
 ## 🔍 Aprendizados Práticos & Resolução de Erros
 
-* **SyntaxError no Modo Interativo:** Entendimento prático de que blocos `with` e laços `for` executados diretamente no terminal interativo (`>>>`) exigem uma linha em branco (Enter duplo) para fechar o escopo antes da execução do comando `print()`.
-* **Encoding (Codificação de Caracteres):** Análise do impacto do tratamento de acentuações, corrigido na leitura dinâmica do Python através da atribuição estrita do parâmetro `encoding='utf-8'`.
-* **NameError (Variáveis Não Definidas):** Fixação de que chaves e objetos dinâmicos (como o parâmetro `dados` na escrita do JSON) precisam ser instanciados previamente na memória do terminal antes da chamada de gravação no arquivo.
+* **Erros de Sintaxe no Modo Interativo:** Entendimento de que blocos que abrem escopo executados direto no terminal (`>>>`) exigem uma linha vazia (Enter duplo) para fechar o bloco antes de chamar outras funções.
+* **Caminhos de Arquivos (Paths):** Compreensão de que declarar apenas o nome do arquivo faz o Python criá-lo na raiz global. Para salvar de forma organizada dentro do projeto, deve-se explicitar a árvore de diretórios.
 
 ---
 
@@ -26,4 +27,13 @@ Este laboratório foi dedicado à prática de persistência e estruturação de 
 ![Leitura e desempacotamento de arquivo CSV](print-csv.png)
 
 ### 3. Manipulação de Estruturas de Dados (.json)
-![Escrita e leitura de objeto JSON com sucesso](print-json.png)
+![Escrita e leitura de arquivo JSON com sucesso](print-json.png)
+
+### 4. Captura com Input e Escrita em Modo Append
+![Código de captura de inputs rodando com sucesso no terminal](print-input-data .png)
+
+### 5. Arquivo Gerado Incrementalmente
+![Estrutura do arquivo de texto populado via inputs](print-input-data_txt.png)
+
+### 6. Leitura de Dados Dinâmicos
+![Leitura de dados do arquivo txt pelo terminal](print-read_data.png)
